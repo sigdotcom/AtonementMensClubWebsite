@@ -4,6 +4,7 @@ import Home from "./pages/Home/Home";
 import Menu from "./pages/Menu/Menu";
 import About from "./pages/About/About";
 import Events from "./pages/Events/Events";
+import Christmas from "./pages/Christmas/Christmas"
 import './App.css';
 
 //probably don't need to touch
@@ -17,6 +18,7 @@ function App() {
           <Route path="menu" element={<Menu />} />
           <Route path="about" element={<About />} />
           <Route path="events" element={<Events />} />
+          <Route path="christmas" element={<Christmas />} />
         </Route>
       </Routes>
     </Router>
