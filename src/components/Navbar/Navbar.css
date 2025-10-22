@@ -12,4 +12,5 @@
     flex-direction: column;
     gap: 5px;
     cursor: pointer;
+    list-style: none;
 }
