@@ -3,6 +3,7 @@ import Layout from "./components/Layout";
 import Home from "./pages/Home/Home";
 import Menu from "./pages/Menu/Menu";
 import About from "./pages/About/About";
+import Events from "./pages/Events/Events";
 import './App.css';
 
 //probably don't need to touch
@@ -15,6 +16,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="menu" element={<Menu />} />
           <Route path="about" element={<About />} />
+          <Route path="events" element={<Events />} />
         </Route>
       </Routes>
     </Router>
