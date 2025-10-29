@@ -52,24 +52,6 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
- .center-text {
-    text-align: center;
-  }
-  .Christmas {
-     background-color: #F5EFED;
-     padding : 20px;
-     border-radius: 10px;
-     width : 804px;
-     height : 298px;
-     border : 4px solid #1a1a1a;
-  }
-  .Christmaspre {
-   white-space: pre-wrap;
-   word-wrap: break-word;
-   font-family: inherit;
-   margin: 0;
-}
-
 
 @media (prefers-color-scheme: light) {
   :root {
