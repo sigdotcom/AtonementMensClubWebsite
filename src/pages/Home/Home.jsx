@@ -4,11 +4,10 @@ function Home() {
             <h1>Home Page</h1>
             
             <div style={{
-                backgroundColor: '#535bf2', 
                 border: '5px solid #00010e', 
                 height: '350px', 
                 width: '350px', 
-                padding: '20px', 
+                padding: '10px', 
                 margin:  'auto'
             }}> 
                 <h2 style={{textAlign: 'center'}}>Our Purpose:</h2>
