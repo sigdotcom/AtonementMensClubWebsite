@@ -6,7 +6,9 @@
     list-style: none;
     gap: 60px;
     font-size: 12px;
+    font-style: italic;
     color: red;
+
 }
 
 .navbar li{
