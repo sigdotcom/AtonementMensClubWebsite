@@ -6,6 +6,7 @@
     list-style: none;
     gap: 60px;
     font-size: 12px;
+    color: red;
 }
 
 .navbar li{
