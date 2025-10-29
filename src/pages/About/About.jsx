@@ -3,6 +3,7 @@ function About() {
         //About page here
         <div className="about">
             <p>About page</p>
+            <p>ahahah i made changes</p>
         </div>
     );
 }
