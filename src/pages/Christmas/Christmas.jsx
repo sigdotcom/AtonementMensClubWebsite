@@ -30,5 +30,4 @@ function Christmas() {
         </div>
     );
 }
-
 export default Christmas;
