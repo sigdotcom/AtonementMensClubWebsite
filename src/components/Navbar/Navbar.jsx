@@ -4,6 +4,7 @@ import "./Navbar.css"
 function Navbar(){
     return(
         // navbar material 
+        
         <div className="navbar">
             <nav>
                 <h1> Atonement Men's Club</h1>
