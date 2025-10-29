@@ -9,7 +9,7 @@ function Christmas() {
          <u> Christmas Tree lot </u>
         </h1>
         <hr></hr>
-        <pre className=" Christmas pre">
+        <pre className=" Christmaspre">
             Welcome to our tree lot! We proudly offer a
             fantastic
             selection of quality Frasier Fir, Balsam Fir, and
