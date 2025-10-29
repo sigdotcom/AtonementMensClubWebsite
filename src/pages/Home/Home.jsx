@@ -7,16 +7,17 @@ function Home() {
                 backgroundColor: '#535bf2', 
                 border: '5px solid #00010e', 
                 height: '350px', 
-                width: '300px', 
+                width: '350px', 
                 padding: '20px', 
                 margin:  'auto'
             }}> 
                 <h2 style={{textAlign: 'center'}}>Our Purpose:</h2>
-                <hr />
+                <hr/>
                 <pre style={{
                     whiteSpace: 'pre-wrap',
                     wordWrap: 'break-word',
                     fontFamily: 'inherit',
+                    fontSize: '18px',
                     margin: 0
                 }}>
 Our purpose is to strengthen the bonds of brotherhood among the men of Atonement. 
