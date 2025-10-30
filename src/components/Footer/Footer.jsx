@@ -1,11 +1,7 @@
-import "./Footer.css"
+import "./Footer.css";
 
 function Footer() {
-    return (
-        <div className="footer">
-            {/* footer material here */}
-        </div>
-    );
+  return <div className="footer">{/* footer material here */}</div>;
 }
 
 export default Footer;

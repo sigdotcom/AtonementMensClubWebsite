@@ -3,14 +3,12 @@ import Navbar from "./Navbar/Navbar";
 import Footer from "./Footer/Footer";
 
 function Layout() {
-    return (
-        <>
-            <Navbar />
-            <main>
-                <Outlet /> {/*The active page is rendered here*/}
-            </main>
-            <Footer />
-        </>
-    );
+  return (
+    <>
+      <Navbar />
+      <Outlet /> {/*The active page is rendered here*/}
+      <Footer />
+    </>
+  );
 }
 export default Layout;
