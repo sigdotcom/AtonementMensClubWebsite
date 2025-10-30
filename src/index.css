@@ -4,20 +4,17 @@
   font-weight: 400;
   margin: 0;
   padding: 0;
-  height: 100%;
+
   width: 100%;
-  
+
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 }
 
-
-body{
-    
-  font-family: 'outfit';
+body {
+  font-family: "outfit";
   width: 100%;
   margin: 0;
   padding: 0;
-  
 }
