@@ -5,12 +5,13 @@ function Home() {
             
             <div style={{
                 border: '5px solid #00010e', 
-                height: '350px', 
-                width: '350px', 
-                padding: '10px', 
-                margin:  'auto'
+                height: '250px',         
+                width: '450px',         
+               padding: '10px 20px 20px 10px',
+               margin: '40px auto',    
+            
             }}> 
-                <h2 style={{textAlign: 'center'}}>Our Purpose:</h2>
+                <h2 style={{textAlign: 'center', marginTop: '-5px'  }}>Our Purpose:</h2>
                 <hr/>
                 <pre style={{
                     whiteSpace: 'pre-wrap',
