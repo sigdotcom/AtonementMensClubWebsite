@@ -1,0 +1,22 @@
+.menu {
+  width: 100%;
+  min-height: 85vh;
+  background-color: #f5efed;
+  display: flex;
+  justify-items: center;
+  padding: 2%;
+  gap: 1rem;
+}
+
+.bbqHours {
+  width: 90%;
+  height: max-content;
+
+  border: red solid 2px;
+}
+
+.bbqMenu {
+  width: 90%;
+  height: max-content;
+  border: red solid 2px;
+}
