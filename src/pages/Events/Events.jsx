@@ -1,16 +1,19 @@
+import "./Events.css";
+
 /* please work!  */
 function Events() {
-    return (
-        <div className="events">
-            <div className="minorEvents">
-                <h1>Minor Events...</h1>
-                <h3>This will go further down..</h3>
-                <h3>Coal was here hehe</h3>
-                <h3>Britney was here</h3>
-                <h3>Britney was here pt2</h3>
-            </div>
-        </div>
-    );
-}   
+  return (
+    <div className="events">
+      <div className="mainEventsCon">
+        <h1>EVENTS</h1>
+        <p>main events here</p>
+      </div>
+      <div className="minorEventsCon">
+        <h1>MINOR EVENTS</h1>
+        <p>minor events here</p>
+      </div>
+    </div>
+  );
+}
 
 export default Events;
