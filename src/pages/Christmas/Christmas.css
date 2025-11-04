@@ -1,0 +1,27 @@
+.christmas {
+  width: 100%;
+  min-height: 85vh;
+  background-color: #f5efed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2%;
+  gap: 1rem;
+}
+.christmas h1 {
+  color: #3993dd;
+  font-size: 64px;
+  font-weight: bold;
+}
+.mainCon {
+  width: 90%;
+  height: max-content;
+
+  border: red solid 2px;
+}
+
+.christmasMenuCon {
+  width: 90%;
+  height: max-content;
+  border: red solid 2px;
+}
