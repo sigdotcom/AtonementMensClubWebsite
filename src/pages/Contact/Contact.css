@@ -18,3 +18,9 @@
 
   border: red solid 2px;
 }
+
+.left-side img {
+  width: 30%;
+  height: auto;
+  border-radius: 8px;
+}
