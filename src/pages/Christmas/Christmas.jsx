@@ -12,7 +12,7 @@ function Christmas() {
         <div class="column">
         
         <p>main christmas content here</p>
-        <h3>Opening Days</h3>
+        <h2 style={{color: "#070"}}>Opening Days</h2>
 
         <p>This year's Christmas Tree Lot will be open from Saturday, November 29th to Friday, December 21st, or sooner if we sell out.</p>
         
@@ -23,25 +23,10 @@ function Christmas() {
         <tr><td>Sat</td><td>10 A.M. - 8:30 P.M.</td></tr>
         <tr><td>Sun</td><td>12 P.M. - 8:30 P.M.</td></tr>
         </table>
-        </div>
-        <div class="column">
-            <img
-                src={treeLot}
-                alt="Christmas Tree Lot"
-                style={{
-                    float: 'right',
-                    bottom: '0px',
-                    right: '0px',
-                    height: '450px',
-                    width: '700px'
-                }}
-            />
-        </div>
-        </div>
-
-      </div>
-      <div className="christmasMenuCon">
-        <h1>MENU</h1>
+        <br/>
+        <hr/>
+        <br/>
+        <h2>Menu</h2>
         <p>
             <div class="columnHolder">
                 <div class="columnMenu">
@@ -63,7 +48,49 @@ function Christmas() {
             </div>
             {/*Prices?*/}
         </p>
+
+        </div>
+        <div class="column border">
+            <img
+                src={treeLot}
+                alt="Christmas Tree Lot"
+                style={{
+                    float: 'right',
+                    bottom: '0px',
+                    right: '0px',
+                    // height: '450px',
+                    width: '100%'
+                }}
+            />
+        </div>
+        </div>
+
       </div>
+      {/*
+      <div className="christmasMenuCon">
+        <h2>Menu</h2>
+        <p>
+            <div class="columnHolder">
+                <div class="columnMenu">
+
+                    <h3>Trees</h3>
+                    <p>Frasier Fir - price?</p>
+                    <p>Balsam Fir</p>
+                    <p>Scotch Pine</p>
+
+                </div>
+                <div class="columnMenu">
+
+                    <h3>Equipment</h3>
+                    <p>Pine Roping</p>
+                    <p>Tree Stands</p>
+                    <p>Tree Kits</p>
+
+                </div>
+            </div>
+            {/*Prices?}
+        </p>
+      </div>*/}
     </div>
   );
 }

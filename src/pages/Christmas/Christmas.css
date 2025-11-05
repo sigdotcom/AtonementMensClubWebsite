@@ -16,20 +16,19 @@
 .mainCon {
   width: 90%;
   height: max-content;
-
   border: red solid 2px;
 }
 
+/*
 .christmasMenuCon {
   width: 90%;
   height: max-content;
   border: red solid 2px;
 }
+*/
 
 .column {
-  width: 40%;
-  padding-right: 1em;
-  margin-right: 1em;
+  width: 49%;
 }
 
 .columnHolder{
@@ -59,4 +58,12 @@
   text-align: center;
   padding: 0em 1em;
   border: 1px solid #3993dd;
+}
+
+.border {
+  border: 2px dashed #000000;
+}
+
+h2 {
+  color: #070;
 }
