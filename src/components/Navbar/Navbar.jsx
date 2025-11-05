@@ -39,6 +39,9 @@ function Navbar() {
         <li>
           <Link to={"/christmas"}>Christmas</Link>
         </li>
+        <li>
+          <Link to={"/contact"}>Contact</Link>
+        </li>
       </ul>
     </div>
   );
