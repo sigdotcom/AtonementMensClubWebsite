@@ -1,0 +1,27 @@
+.events {
+  width: 100%;
+  min-height: 85vh;
+  background-color: #f5efed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2%;
+  gap: 1rem;
+}
+.events h1 {
+  color: #3993dd;
+  font-size: 64px;
+  font-weight: bold;
+}
+.mainEventsCon {
+  width: 90%;
+  height: max-content;
+
+  border: red solid 2px;
+}
+
+.minorEventsCon {
+  width: 90%;
+  height: max-content;
+  border: red solid 2px;
+}
