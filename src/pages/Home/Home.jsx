@@ -1,90 +1,78 @@
+<<<<<<<<< Temporary merge branch 1
 import "./Home.css";
 
 function Home() {
   return (
     <div className="home">
+      <h1>Home Page</h1>
+
       <div
         style={{
-          maxWidth: "900px",
-          margin: "0 auto",
+          border: "5px solid #00010e",
+          height: "250px",
+          width: "450px",
+          padding: "10px 20px 20px 10px",
+          margin: "40px auto",
         }}
       >
-        <h2
+        <h2 style={{ textAlign: "center", marginTop: "-5px" }}>Our Purpose:</h2>
+        <hr />
+        <pre
           style={{
-            fontSize: "2.25rem",
-            lineHeight: 1.2,
-            margin: "0 0 12px",
-            fontWeight: 700,
-            color: "#0f172a",
-          }}
-        >
-          Welcome
-        </h2>
-        <p
-          style={{
-            margin: "0 0 20px",
+            whiteSpace: "pre-wrap",
+            wordWrap: "break-word",
+            fontFamily: "inherit",
             fontSize: "18px",
-            color: "#475569",
+            margin: 0,
           }}
         >
-          Atonement Men’s Club
-        </p>
-<div
-  style={{
-    background: "linear-gradient(180deg, #ffffff 0%, #f8fafc 100%)",
-    boxShadow: "0 2px 6px rgba(0,0,0,0.1)",
-    border: "1px solid #e5ecf6ff",
-    borderRadius: "8px",
-    padding: "10px 14px",
-    margin: "8px auto",
-    maxWidth: "440px",
-    minHeight: "250px",
-  }}
->
-  <h2
-    style={{
-      textAlign: "center",
-      marginBottom: "6px",
-      fontSize: "20px",
-      fontWeight: 700,
-      color: "#0f172a",
-    }}
-  >
-    Our Purpose:
-  </h2>
-  <hr
-    style={{
-      margin: "0 auto 8px",
-      border: "none",
-      borderTop: "1px solid #e2e8f0",
-      width: "40%",
-    }}
-  />
-  <p
-    style={{
-      fontSize: "16px",
-      lineHeight: "1.55",
-      color: "#334155",
-      fontFamily: "Georgia, serif",
-      textAlign: "justify",
-      margin: "0",
-      width: "100%",
-      wordSpacing: "0.3px",
-    }}
-  >
-    Our purpose is to strengthen the bonds of brotherhood among the men of
-    Atonement. Through this fellowship, we are empowered to serve the Lord by
-    actively supporting our church and community. A central part of our mission
-    is to raise essential funds for projects and needs that fall outside the
-    regular budget, ensuring our school, church, and community possess all of
-    the resources needed to thrive.
-  </p>
-</div>
-
-
-
+          Our purpose is to strengthen the bonds of brotherhood among the men of
+          Atonement. Through this fellowship, we are empowered to serve the Lord
+          by actively supporting our church and community. A key part of our
+          mission is to raise essential funds for those important projects and
+          needs that fall outside the regular budget, ensuring our school,
+          church, and community have the resources to thrive.
+        </pre>
       </div>
     </div>
   );
+}
+export default Home;
+=========
+function Home() { 
+    return (
+        <div className="home">
+            <h1>Home Page</h1>
+            
+            <div style={{
+                border: '5px solid rgba(0, 0, 0, 0.05)',
+                boxShadow: '2px 1px 2px rgba(0,0,0,0.06), 0 6px 16px rgba(0,0,0,0.10), 0 18px 36px rgba(0,0,0,0.08)', 
+                height: 'auto',         
+                width: 'min(90%, 450px)',         
+               padding: '15px 20px 20px 20px',
+               margin: '50px auto',  
+             
+            
+            }}> 
+                <h2 style={{textAlign: 'center', marginTop: '0', marginBottom: '10px'  }}>Our Purpose:</h2>
+                <hr style={{ borderTop: '-1px solid rgba(9, 0, 0, 0.15)', margin: '0 0 5px'}} />
+                <pre style={{
+                    whiteSpace: 'pre-wrap',
+                    wordWrap: 'break-word',
+                    fontFamily: 'arial, sans-serif',
+                    fontSize: '19px',
+                    marginBottom: '-2px',
+                    marginTop: '12px'
+                }}>
+Our purpose is to strengthen the bonds of brotherhood among the men of Atonement. 
+Through this fellowship, we are empowered to serve the Lord by actively supporting
+our church and community. A key part of our mission is to raise essential funds
+for those important projects and needs that fall outside the regular budget, 
+ensuring our school, church, and community have the resources to thrive.
+                </pre>
+                
+            </div>
+        </div>
+    );
 }
 export default Home;
