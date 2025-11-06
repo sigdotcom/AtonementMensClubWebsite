@@ -1,10 +1,17 @@
+import "./menu.css";
+
 function Menu() {
-    return (
-        //menu page here
-        <div className="menu">
-            <p>Menu page</p>
-        </div>
-    );
+  return (
+    //BBQ menu page here
+    <div className="menu">
+      <div className="bbqHours">
+        <p>bbq hours here</p>
+      </div>
+      <div className="bbqMenu">
+        <p>bbq menu here</p>
+      </div>
+    </div>
+  );
 }
 
 export default Menu;
