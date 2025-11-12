@@ -28,7 +28,7 @@ function Menu() {
       <div className="bbqMenu">
         <img src="src/pages/Menu/images/brisket.jpg" alt="BBQ" className="brisketImage"/>
         <img src="src/pages/Menu/images/ribs.jpg" alt="BBQ" className="ribsImage"/>
-        <img src="src/pages/Menu/images/coleslaw.jpg" alt="BBQ" className="coleslawImage"/>
+        <img src="src/pages/Menu/images/slaw.jpg" alt="BBQ" className="coleslawImage"/>
         
         <div className="entreesBlock">Entrees</div>
 
@@ -47,6 +47,7 @@ function Menu() {
           Cheesy Hashbrowns<br/>
         </p>
 
+        <div className="sidesBlock">Sides</div>
         <p className="sidesFormat">
           Coleslaw<br/>
           Beans<br/>

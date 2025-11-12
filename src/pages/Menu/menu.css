@@ -28,25 +28,42 @@ div.entreesBlock{
   position: fixed;
   background-color: #3993DD;
   color: black;
+  /*top: 200px;*/
   top: 100px;
-  right: 250px;
+  right: 230px;
   height: 25px;
   width: 80px;
-  padding: 10px;
   display: flex;
-  border-radius: 10%;
+  border-radius: 15%;
   justify-content: center;
 }
+
+div.sidesBlock{
+  /*position: fixed;*/
+  position: fixed;
+  background-color: #3993DD;
+  color: black;
+  top: 400px;
+  right: 50px;
+  height: 25px;
+  width: 80px;
+  display: flex;
+  border-radius: 15%;
+  justify-content: center;
+}
+
 
 
 .entreesFormat{
   font-size: 15px;
   background-color: pink;
   color: black;
-  bottom: 1px;
-  top: 200px;
+  bottom: 10px;
+  top: 250px;
   right: 250px;
   width: 200px;
+  border: 1px solid black;
+  padding: 10px;
 }
 
 .sidesFormat{
@@ -60,6 +77,9 @@ div.entreesBlock{
 }
 
 .brisketImage {
+  position: fixed;
+  right: 30px;
+  bottom: 500px;
   width: 100px;
   height: 92px;
   border-radius: 50%;
@@ -74,6 +94,9 @@ div.entreesBlock{
 }
 
 .ribsImage{
+  position: fixed;
+  top: 250px;
+  right: 30px;
   width: 100px;
   height: 92px;
   border-radius: 50%;
@@ -83,10 +106,13 @@ div.entreesBlock{
 }
 
 .coleslawImage{
+  position: fixed;
+  right: 270px;
+  bottom: 200px;
   width: 100px;
   height: 92px;
   border-radius: 50%;
   float: left;
-  margin-right: 10px;
+  margin-left: 20px; 
   border: 2px solid black;
 }
