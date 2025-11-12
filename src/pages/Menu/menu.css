@@ -6,17 +6,87 @@
   justify-items: center;
   padding: 2%;
   gap: 1rem;
+  text-align: cetner;
 }
 
 .bbqHours {
   width: 90%;
   height: max-content;
-
-  border: red solid 2px;
+  text-align:center;
+  border: orange solid 2px;
 }
 
 .bbqMenu {
   width: 90%;
   height: max-content;
   border: red solid 2px;
+  text-align: center;
+}
+
+
+div.entreesBlock{
+  position: fixed;
+  background-color: #3993DD;
+  color: black;
+  top: 100px;
+  right: 250px;
+  height: 25px;
+  width: 80px;
+  padding: 10px;
+  display: flex;
+  border-radius: 10%;
+  justify-content: center;
+}
+
+
+.entreesFormat{
+  font-size: 15px;
+  background-color: pink;
+  color: black;
+  bottom: 1px;
+  top: 200px;
+  right: 250px;
+  width: 200px;
+}
+
+.sidesFormat{
+  font-size: 15px;
+  background-color: lightblue;
+  color: black;
+  bottom: 10px;
+  top: 200px;
+  left: 250px;
+  width: 200px;
+}
+
+.brisketImage {
+  width: 100px;
+  height: 92px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px;
+  border: 2px solid black;
+}
+
+.brisketImage:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.ribsImage{
+  width: 100px;
+  height: 92px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px;
+  border: 2px solid black;
+}
+
+.coleslawImage{
+  width: 100px;
+  height: 92px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px;
+  border: 2px solid black;
 }
