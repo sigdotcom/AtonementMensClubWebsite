@@ -30,19 +30,51 @@ function Christmas() {
         <p>
             <div class="columnHolder">
                 <div class="columnMenu">
-
-                    <h3>Trees</h3>
-                    <p>Frasier Fir - price?</p>
-                    <p>Balsam Fir</p>
-                    <p>Scotch Pine</p>
+                    <table class="dayToTimeTable">
+                        <caption><h3>Trees</h3></caption>
+                        <tr>
+                            <td>
+                                <p>Frasier Fir - price?</p>
+                            </td>
+                            <td><i>price</i></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Balsam Fir</p>
+                            </td>
+                            <td><i>price</i></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Scotch Pine</p>
+                            </td>
+                            <td><i>price</i></td>
+                        </tr>
+                    </table>
 
                 </div>
                 <div class="columnMenu">
-
-                    <h3>Equipment</h3>
-                    <p>Pine Roping</p>
-                    <p>Tree Stands</p>
-                    <p>Tree Kits</p>
+                    <table class="dayToTimeTable">
+                        <caption><h3>Equipment</h3></caption>
+                        <tr>
+                            <td>
+                                <p>Pine Roping</p>
+                            </td>
+                            <td><i>price</i></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Tree Stands</p>
+                            </td>
+                            <td><i>price</i></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Tree Kits</p>
+                            </td>
+                            <td><i>price</i></td>
+                        </tr>
+                    </table>
 
                 </div>
             </div>
