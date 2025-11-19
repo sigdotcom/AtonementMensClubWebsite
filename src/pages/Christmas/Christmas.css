@@ -40,9 +40,7 @@
 }
 
 .columnMenu {
-  width: 10em;
-  padding-right: 1em;
-  margin-right: 1em;
+  margin-right: 2em;
 }
 
 .dayToTimeTable {
@@ -59,6 +57,22 @@
   padding: 0em 1em;
   border: 1px solid #3993dd;
 }
+
+.priceTable {
+  border-collapse: collapse;
+  border-style: hidden; 
+}
+
+.priceTable > caption {
+  text-align: center;
+  border-bottom: 2px solid #3993dd;
+}
+.priceTable > tr > td {
+  text-align: center;
+  padding: 0em 1em;
+  border: 1px solid #3993dd;
+}
+
 
 .border {
   border: 2px dashed #000000;

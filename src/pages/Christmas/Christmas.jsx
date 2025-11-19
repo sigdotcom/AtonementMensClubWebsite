@@ -30,11 +30,11 @@ function Christmas() {
         <p>
             <div class="columnHolder">
                 <div class="columnMenu">
-                    <table class="dayToTimeTable">
-                        <caption><h3>Trees</h3></caption>
+                    <table class="priceTable">
+                        <caption class=""><h3>Trees</h3></caption>
                         <tr>
                             <td>
-                                <p>Frasier Fir - price?</p>
+                                <p>Frasier Fir</p>
                             </td>
                             <td><i>price</i></td>
                         </tr>
@@ -54,7 +54,7 @@ function Christmas() {
 
                 </div>
                 <div class="columnMenu">
-                    <table class="dayToTimeTable">
+                    <table class="priceTable">
                         <caption><h3>Equipment</h3></caption>
                         <tr>
                             <td>
@@ -82,7 +82,7 @@ function Christmas() {
         </p>
 
         </div>
-        <div class="column border">
+        <div class="column">
             <img
                 src={treeLot}
                 alt="Christmas Tree Lot"
