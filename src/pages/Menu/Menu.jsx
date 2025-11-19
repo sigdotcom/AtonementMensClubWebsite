@@ -26,15 +26,18 @@ function Menu() {
 
       
       <div className="bbqMenu">
-        <img src="src/pages/Menu/images/brisket.jpg" alt="BBQ" className="brisketImage"/>
-        <img src="src/pages/Menu/images/ribs.jpg" alt="BBQ" className="ribsImage"/>
-        <img src="src/pages/Menu/images/slaw.jpg" alt="BBQ" className="coleslawImage"/>
+
+    
+    
         
-        <div className="entreesBlock">Entrees</div>
+        <div id="entreesBlock" className="menuHeader">Entrees</div>
+
+        <div id="line1" className="lines"></div>
+        <div id="line2" className="lines"></div>   
 
 
         <h>BBQ Menu</h>
-        <p className="entreesFormat">
+        <p className="entreesText">
           Ribs<br/>
           Pork Steaks<br/>
           Brisket<br/>
@@ -47,12 +50,14 @@ function Menu() {
           Cheesy Hashbrowns<br/>
         </p>
 
-        <div className="sidesBlock">Sides</div>
+        <div id="sidesBlock" className="menuHeader">Sides</div>
         <p className="sidesFormat">
           Coleslaw<br/>
           Beans<br/>
         </p>
         
+        <div className="testingBlock">Test1</div>
+        <div id="sided" className="testingBlock">Sides</div>
 
 
 
