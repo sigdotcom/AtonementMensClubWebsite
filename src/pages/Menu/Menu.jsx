@@ -4,6 +4,10 @@ function Menu() {
   return (
 
     //BBQ menu page here
+
+    //  <div className="testingBlock">Test1</div>
+    // <div id="sided" className="testingBlock">Sides</div>
+
     <div className="menu">
 
       <div className="bbqHours">
@@ -25,14 +29,15 @@ function Menu() {
       </div>
 
       
-      <div className="bbqMenu">
-
-    
-    
-        
+      <div className="bbqMenu">    
         <div id="entreesBlock" className="menuHeader">Entrees</div>
+        <img src="src/pages/Menu/images/brisket.jpg" alt="BBQ" className="brisketImage"/>
+        <img src="src/pages/Menu/images/ribs.jpg" alt="BBQ" className="ribsImage"/>
+        <img src="src/pages/Menu/images/slaw.jpg" alt="BBQ" className="coleslawImage"/>
+
 
         <div id="line1" className="lines"></div>
+        <div id="verticalLine" className="lines"></div>
         <div id="line2" className="lines"></div>   
 
 
@@ -51,13 +56,11 @@ function Menu() {
         </p>
 
         <div id="sidesBlock" className="menuHeader">Sides</div>
-        <p className="sidesFormat">
+        <p className="sidesText">
           Coleslaw<br/>
           Beans<br/>
         </p>
         
-        <div className="testingBlock">Test1</div>
-        <div id="sided" className="testingBlock">Sides</div>
 
 
 
