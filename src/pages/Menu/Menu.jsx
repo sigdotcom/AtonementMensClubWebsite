@@ -41,7 +41,8 @@ function Menu() {
         <div id="line2" className="lines"></div>   
 
 
-        <h>BBQ Menu</h>
+        <h id="bbqBold" >BBQ Menu</h>
+
         <p className="entreesText">
           Ribs<br/>
           Pork Steaks<br/>
@@ -62,19 +63,8 @@ function Menu() {
         </p>
         
 
-
-
-
-
       
       </div>  
-
-
-
-
-
-
-
     </div>
   );
 }

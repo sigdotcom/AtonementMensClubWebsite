@@ -1,4 +1,5 @@
 .menu {
+  position: absolute;
   width: 100%;
   min-height: 85vh;
   height: 100%;
@@ -9,7 +10,7 @@
   gap: 1rem;
   text-align: cetner;
   font-family: "Miriam Libre", unset;
-  border: 5px solid green;
+  /*border: 5px solid green; */
 
 }
 
@@ -29,6 +30,11 @@
   /* height: max-content; */
   border: red solid 2px;
   text-align: center;
+  font-size: 30px;
+}
+
+#bbqBold{
+  font-weight: 700;
 }
 
 /*  original entrees block
@@ -186,7 +192,7 @@ div.sidesBlock{
   /*width: 15%;*/
   width: 400px;
   margin: 1.5rem 0;
-  border-top: 2px solid green;
+  border-top: 2px solid black;
   border-bottom: none;
   z-index: -0.5;
 }
@@ -198,7 +204,7 @@ div.sidesBlock{
   /*width: 15%;*/
   width: 400px;
   margin: 1.5rem 0;
-  border-top: 2px solid green;
+  border-top: 2px solid black;
   border-bottom: none;
   z-index: -0.5;
 }
