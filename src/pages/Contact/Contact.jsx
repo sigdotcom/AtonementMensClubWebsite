@@ -1,4 +1,5 @@
 import "./Contact.css";
+import image from "../../assets/ACMWEBIMAGE.jpg";
 
 function Contact() {
   return (
@@ -6,7 +7,11 @@ function Contact() {
     <div className="contact">
       <div className="contactBlurbCon">
         <h1>CONTACT US</h1>
-        <p>contact content here</p>
+        <p>contact content</p>
+        <div className="left-side">
+          <img src={image} alt="Contact Photo" />
+        </div>
+        
       </div>
     </div>
   );
