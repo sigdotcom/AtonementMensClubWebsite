@@ -1,7 +1,13 @@
 import "./Footer.css";
 
 function Footer() {
-  return <div className="footer">{/* footer material here */}</div>;
+  return (
+  <footer className="footer">
+
+    <p>&copy; {2025} Atonement Men's Club. All rights reserved.</p>
+  </footer>
+
+  );
 }
 
 export default Footer;
